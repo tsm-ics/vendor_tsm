@@ -15,7 +15,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.mode=OPTIONAL \
-    ro.setupwizard.enterprise_mode=1
+    ro.setupwizard.enterprise_mode=1 \
+    ro.rommanager.developerid=TeamSbrissenMod \
+    ro.modversion=
 
 # Sip and voip
 PRODUCT_COPY_FILES += \
