@@ -27,5 +27,11 @@ PRODUCT_COPY_FILES +=  \
 
 # Common Packages
 PRODUCT_PACKAGES += \
+    Camera \
+    Gallery \
+    MusicFX \
+    MusicVisualization \
+    NoiseField \
+    PhaseBeam \
     Superuser \
-    su \
+    su 
