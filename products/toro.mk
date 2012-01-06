@@ -4,9 +4,6 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/tsm/products/common.mk)
 
-# Inherit Common NFC files.
-$(call inherit-product, vendor/tsm/products/common-nfc.mk)
-
 # Setup device specific product configuration.
 PRODUCT_NAME := tsm_toro
 PRODUCT_BRAND := google
